@@ -10,6 +10,11 @@ import WhyChooseUs from './pages/WhyChooseUs'
 import Contact from './pages/Contact'
 import Auth from './pages/Auth'
 import NotFound from './pages/NotFound'
+import '@fontsource/outfit/400.css'
+import '@fontsource/outfit/500.css'
+import '@fontsource/outfit/600.css'
+import '@fontsource/outfit/700.css'
+import '@fontsource/outfit/900.css'
 import './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

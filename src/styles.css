@@ -505,3 +505,8 @@ p { margin: 0; }
   .offroad__lineup .lineup, [data-reveal] { opacity: 1 !important; transform: none !important; }
   [data-parallax] { translate: none !important; }
 }
+
+/* Home: Sign In sits over the teal hero panel until the nav turns solid */
+@media (min-width: 881px) {
+  .nav:has(+ main > .hero:first-child):not(.nav--scrolled) .nav__signin { color: #fff; }
+}

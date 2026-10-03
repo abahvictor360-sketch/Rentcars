@@ -1,6 +1,22 @@
 # RentCarsNG
 
-Car rental website for Nigeria — built with React + Vite.
+A responsive car rental website concept for the Nigerian market, built with React + Vite.
+
+**Live demo:** _coming soon_
+
+![RentCarsNG preview](portfolio/cover-landscape.jpg)
+
+| Fleet & booking | Mobile |
+| --- | --- |
+| ![Car details](portfolio/desktop-car-details.jpg) | ![Mobile](portfolio/mobile-hero.jpg) |
+
+## Features
+- 7 pages with client-side routing
+- Fleet filtering by type, brand and price
+- Car detail pages with a booking form and live ₦ price calculation (+ chauffeur option)
+- Branch finder with embedded maps for five cities
+- Scroll-triggered reveals, parallax, count-up stats and a progress bar (respects reduced motion)
+- Background-removed car imagery for a clean catalogue look
 
 ## Pages
 - `/` Home (hero search, how it works, top rated cars, services, branches, testimonials, off-road fleet, blog)
