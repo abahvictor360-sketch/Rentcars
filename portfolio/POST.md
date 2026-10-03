@@ -1,6 +1,6 @@
 # RentCarsNG: portfolio post kit
 
-Replace anything in [brackets] before posting. **[LIVE LINK]** = your Vercel URL once deployed.
+Live demo: **https://rentcars-alpha.vercel.app**. Replace anything still in [brackets] before posting.
 
 Images in this folder:
 - `cover-landscape.jpg` (1920×1080): LinkedIn, X/Twitter, Behance cover
@@ -28,7 +28,7 @@ I took a car rental UI design and turned it into a fully working, responsive web
 
 Built with React + Vite. Fast, lightweight and mobile-first.
 
-🔗 Live demo: [LIVE LINK]
+🔗 Live demo: https://rentcars-alpha.vercel.app
 
 If you run a car rental, logistics, real estate or service business and want a website that looks this good and actually converts, I'm taking new clients. Send me a DM or reach me at [your email / WhatsApp].
 
@@ -43,7 +43,7 @@ Just shipped RentCarsNG 🚗, a car rental website concept for Nigeria.
 
 Responsive, animated, with a working booking flow.
 
-Live: [LIVE LINK]
+Live: https://rentcars-alpha.vercel.app
 🧵👇
 
 **2/**
@@ -80,7 +80,7 @@ Need a website for your business? I design & build websites that look premium an
 
 ## WhatsApp status / short message
 
-Just finished this car rental website 🚗 Works on phone & laptop, with booking + price calculator. Check it out: [LIVE LINK]
+Just finished this car rental website 🚗 Works on phone & laptop, with booking + price calculator. Check it out: https://rentcars-alpha.vercel.app
 Need a website for your business? Message me 👋
 
 ---
@@ -94,13 +94,13 @@ A multi-page car rental website built from a UI design into production-ready Rea
 
 **Role:** Front-end development, image processing, responsive implementation, deployment
 **Skills:** React, Vite, React Router, CSS animations, Responsive design, Vercel
-**Link:** [LIVE LINK]
+**Link:** https://rentcars-alpha.vercel.app
 
 ---
 
 ## Before you post: quick checklist
 
-- [ ] Deploy and replace **[LIVE LINK]** (the covers show `rentcarsng.vercel.app`; tell me if your final URL is different and I'll update them)
+- [x] Deployed at https://rentcars-alpha.vercel.app (captions and covers updated)
 - [ ] Add your name/contact to the captions
 - [ ] **Design credit:** the layout is based on a "Rent A Car" UI design you found. If you know who designed it, credit them (e.g. "UI design by @name, development by me"). Clients respect it, and it avoids someone calling it out.
 - [ ] **Say it's a concept:** RentCarsNG isn't a real client and the prices, reviews and contact details are placeholders. Calling it a "concept" or "demo project" keeps you credible.

@@ -2,7 +2,7 @@
 
 A responsive car rental website concept for the Nigerian market, built with React + Vite.
 
-**Live demo:** _coming soon_
+**Live demo:** https://rentcars-alpha.vercel.app
 
 ![RentCarsNG preview](portfolio/cover-landscape.jpg)
 
