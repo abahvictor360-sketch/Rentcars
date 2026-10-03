@@ -4,6 +4,7 @@ import {
   MapPin, CalendarDays, CarFront, Headset, BadgePercent, Search, Star, Quote, Users, Settings2, Gauge, ArrowRight,
 } from 'lucide-react'
 import { cars, naira, brands } from '../data/cars'
+import { CountUp } from './Motion'
 import { branches, testimonials, posts, steps, services, partnerBrands } from '../data/site'
 
 export function SectionHeading({ title, text, light = false }) {
@@ -147,7 +148,7 @@ export function Services() {
       <div className="container">
         <SectionHeading title={<>Best Services and<br />Luxuries Cars</>} text="We go beyond the car. Every rental comes with premium support, flexible locations and peace of mind." />
         <div className="services">
-          <img className="services__car" src="/cars/cutout/chevy-blazer.webp" alt="Chevrolet Blazer" loading="lazy" />
+          <img className="services__car" data-parallax="0.06" src="/cars/cutout/chevy-blazer.webp" alt="Chevrolet Blazer" loading="lazy" />
           <ul className="services__list">
             {services.map((s, i) => {
               const Icon = serviceIcons[i]
@@ -314,7 +315,7 @@ export function PageBanner({ title, text, image = '/cars/cutout/escalade-2025.we
           <h1>{title}</h1>
           {text && <p>{text}</p>}
         </div>
-        <img src={image} alt="" />
+        <img src={image} alt="" data-parallax="0.2" />
       </div>
     </section>
   )
@@ -331,7 +332,7 @@ export function Stats() {
   return (
     <div className="stats">
       {data.map((s) => (
-        <div key={s.l}><b>{s.n}</b><span>{s.l}</span></div>
+        <div key={s.l}><CountUp value={s.n} /><span>{s.l}</span></div>
       ))}
     </div>
   )

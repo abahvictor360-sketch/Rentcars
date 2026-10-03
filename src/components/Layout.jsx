@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { Menu, X, MapPin, Phone, Mail } from 'lucide-react'
 import Social from './Social'
+import { Motion } from './Motion'
 import { contact } from '../data/site'
 
 export function Logo({ light = false }) {
@@ -141,6 +142,7 @@ export default function Layout() {
   return (
     <>
       <ScrollManager />
+      <Motion />
       <Navbar />
       <main>
         <Outlet />

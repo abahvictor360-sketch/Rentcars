@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <div className="hero__bgtext" aria-hidden="true">RCN</div>
+        <div className="hero__bgtext" aria-hidden="true" data-parallax="0.35">RCN</div>
         <div className="hero__panel" aria-hidden="true" />
         <div className="container hero__inner">
           <div className="hero__copy">
@@ -15,7 +15,7 @@ export default function Home() {
             </p>
             <SearchForm />
           </div>
-          <img className="hero__car" src="/cars/cutout/g63-black.webp" alt="Black Mercedes-AMG G63" fetchpriority="high" />
+          <img className="hero__car" data-parallax="0.12" src="/cars/cutout/g63-black.webp" alt="Black Mercedes-AMG G63" fetchpriority="high" />
         </div>
       </section>
       <HowItWorks />
