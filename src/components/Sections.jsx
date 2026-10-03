@@ -105,7 +105,7 @@ export function CarCard({ car }) {
         <li><Settings2 size={15} /> {car.transmission}</li>
         <li><Gauge size={15} /> {car.mileage}</li>
       </ul>
-      <p className="car-card__price">Starting at <b>{naira(car.price)}</b>/Day</p>
+      <p className="car-card__price"><span>Starting at </span><b>{naira(car.price)}</b>/Day</p>
       <div className="car-card__actions">
         <Link to={`/cars/${car.id}`} className="btn btn--sm">Details</Link>
         <Link to={`/cars/${car.id}#book`} className="btn btn--sm btn--soft">Book Now</Link>
@@ -129,7 +129,7 @@ export function TopRated() {
             </button>
           ))}
         </div>
-        <div className="grid-3">
+        <div className="grid-3 rail">
           {list.map((c) => <CarCard key={c.id} car={c} />)}
         </div>
         <div className="center mt">
@@ -231,7 +231,7 @@ export function Testimonials({ count = 3 }) {
     <section className="section" id="testimonials">
       <div className="container">
         <SectionHeading title={<>What People Say<br />About Us?</>} text="Thousands of happy drivers across Nigeria trust RentCarsNG for business, weddings, holidays and everything in between." />
-        <div className="grid-3">
+        <div className="grid-3 rail">
           {testimonials.slice(0, count).map((t) => (
             <figure key={t.name} className="review">
               <header>
@@ -279,7 +279,7 @@ export function Blog() {
     <section className="section" id="blog">
       <div className="container">
         <SectionHeading title={<>Know More to<br />Choose</>} text="Reviews, road-trip stories and tips to help you pick the perfect car for every occasion." />
-        <div className="grid-3">
+        <div className="grid-3 rail">
           {posts.map((p) => (
             <article key={p.slug} className="post">
               <div className="post__img"><img src={p.image} alt="" loading="lazy" /></div>

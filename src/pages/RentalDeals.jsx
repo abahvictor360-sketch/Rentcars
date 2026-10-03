@@ -54,7 +54,7 @@ export default function RentalDeals() {
           <p className="muted results">
             {list.length} car{list.length !== 1 && 's'} available{location && <> for pick-up in <b>{location}</b></>}
           </p>
-          <div className="grid-3">
+          <div className="grid-3 fleet-grid">
             {list.map((c) => <CarCard key={c.id} car={c} />)}
           </div>
           {!list.length && <p className="center muted">No cars match these filters.</p>}

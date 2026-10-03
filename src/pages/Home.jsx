@@ -15,7 +15,9 @@ export default function Home() {
             </p>
             <SearchForm />
           </div>
-          <img className="hero__car" data-parallax="0.12" src="/cars/cutout/g63-black.webp" alt="Black Mercedes-AMG G63" fetchpriority="high" />
+          <div className="hero__media">
+            <img className="hero__car" data-parallax="0.12" src="/cars/cutout/g63-black.webp" alt="Black Mercedes-AMG G63" fetchpriority="high" />
+          </div>
         </div>
       </section>
       <HowItWorks />

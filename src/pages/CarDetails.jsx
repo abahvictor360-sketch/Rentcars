@@ -106,11 +106,15 @@ export default function CarDetails() {
           </div>
         </div>
       </section>
+      <div className="book-bar">
+        <div><b>{naira(car.price)}</b><span>/day</span></div>
+        <button className="btn btn--sm" onClick={() => document.getElementById('book')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>Book Now</button>
+      </div>
       {related.length > 0 && (
         <section className="section">
           <div className="container">
             <SectionHeading title="You May Also Like" />
-            <div className="grid-3">{related.map((c) => <CarCard key={c.id} car={c} />)}</div>
+            <div className="grid-3 rail">{related.map((c) => <CarCard key={c.id} car={c} />)}</div>
           </div>
         </section>
       )}
